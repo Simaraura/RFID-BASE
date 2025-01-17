@@ -723,7 +723,7 @@ void Horarios(estadoMEF *punteroEstadoActual){
     return;
   }
 }
-//cAMBIA EL TIPADO DE LA TARJETA A UN STRING
+//CAMBIA EL TIPADO DE LA TARJETA A UN STRING
 void cambio_de_tipado(byte *buffer, byte bufferSize){  
   Serial.println("Estro a la funcion de cambio de tipado"); 
   leer_rfid="";
